@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/Guseyn/cutie-array-iteration#readme",
   "dependencies": {
+    "@cuties/assert": "^1.1.5",
     "@cuties/cutie": "^1.4.4",
+    "@cuties/is": "^1.0.8",
     "test-executor": "^1.1.2"
   }
 }
