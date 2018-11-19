@@ -5,13 +5,13 @@ const { AsyncObject } = require('@cuties/cutie');
 // Represents number
 class lastIndexOf extends AsyncObject {
 
-  constructor(array, elm, start) {
-    super(array, elm, start);
+  constructor(array, item, start) {
+    super(array, item, start);
   }
 
   definedSyncCall() {
-    return (array, elm, start) => {
-      return array.lastIndexOf(elm, start);
+    return (array, item, start) => {
+      return array.lastIndexOf(item, start);
     }
   }
 
