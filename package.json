@@ -1,0 +1,27 @@
+{
+  "name": "@cuties/array-iteration",
+  "version": "1.0.0",
+  "description": "Cutie extension for JavaScript array iteration methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-executor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guseyn/cutie-array-iteration.git"
+  },
+  "keywords": [
+    "cutie",
+    "array",
+    "iteration"
+  ],
+  "author": "guseyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guseyn/cutie-array-iteration/issues"
+  },
+  "homepage": "https://github.com/Guseyn/cutie-array-iteration#readme",
+  "dependencies": {
+    "test-executor": "^1.1.2"
+  }
+}
