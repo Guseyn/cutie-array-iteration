@@ -1,20 +1,18 @@
 'use strict'
 
-const { AsyncObject } = require('@cuties/cutie');
+const { AsyncObject } = require('@cuties/cutie')
 
 // Represents boolean value
 class Some extends AsyncObject {
-
-  constructor(array, iterator) {
-    super(array, iterator);
+  constructor (array, iterator) {
+    super(array, iterator)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (array, iterator) => {
-      return array.some(iterator);
+      return array.some(iterator)
     }
   }
-
 }
 
-module.exports = Some;
+module.exports = Some

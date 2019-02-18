@@ -1,20 +1,18 @@
 'use strict'
 
-const { AsyncObject } = require('@cuties/cutie');
+const { AsyncObject } = require('@cuties/cutie')
 
 // Represents value
 class Reduced extends AsyncObject {
-
-  constructor(array, iterator) {
-    super(array, iterator);
+  constructor (array, iterator) {
+    super(array, iterator)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (array, iterator) => {
-      return array.reduce(iterator);
+      return array.reduce(iterator)
     }
   }
-
 }
 
-module.exports = Reduced;
+module.exports = Reduced

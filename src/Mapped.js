@@ -1,20 +1,18 @@
 'use strict'
 
-const { AsyncObject } = require('@cuties/cutie');
+const { AsyncObject } = require('@cuties/cutie')
 
 // Represents array
 class Mapped extends AsyncObject {
-
-  constructor(array, iterator) {
-    super(array, iterator);
+  constructor (array, iterator) {
+    super(array, iterator)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (array, iterator) => {
-      return array.map(iterator);
+      return array.map(iterator)
     }
   }
-
 }
 
-module.exports = Mapped;
+module.exports = Mapped

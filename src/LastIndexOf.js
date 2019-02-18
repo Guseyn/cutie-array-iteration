@@ -1,20 +1,18 @@
 'use strict'
 
-const { AsyncObject } = require('@cuties/cutie');
+const { AsyncObject } = require('@cuties/cutie')
 
 // Represents number
 class lastIndexOf extends AsyncObject {
-
-  constructor(array, item, start) {
-    super(array, item, start);
+  constructor (array, item, start) {
+    super(array, item, start)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (array, item, start) => {
-      return array.lastIndexOf(item, start);
+      return array.lastIndexOf(item, start)
     }
   }
-
 }
 
-module.exports = lastIndexOf;
+module.exports = lastIndexOf

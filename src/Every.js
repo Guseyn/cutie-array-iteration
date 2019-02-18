@@ -1,20 +1,18 @@
 'use strict'
 
-const { AsyncObject } = require('@cuties/cutie');
+const { AsyncObject } = require('@cuties/cutie')
 
 // Represents boolean value
 class Every extends AsyncObject {
-
-  constructor(array, iterator) {
-    super(array, iterator);
+  constructor (array, iterator) {
+    super(array, iterator)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (array, iterator) => {
-      return array.every(iterator);
+      return array.every(iterator)
     }
   }
-
 }
 
-module.exports = Every;
+module.exports = Every
