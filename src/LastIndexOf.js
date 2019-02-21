@@ -8,7 +8,7 @@ class lastIndexOf extends AsyncObject {
     super(array, item, start)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, item, start) => {
       return array.lastIndexOf(item, start)
     }

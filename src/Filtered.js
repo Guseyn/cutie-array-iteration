@@ -8,7 +8,7 @@ class Filtered extends AsyncObject {
     super(array, iterator)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, iterator) => {
       return array.filter(iterator)
     }

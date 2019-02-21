@@ -8,7 +8,7 @@ class Mapped extends AsyncObject {
     super(array, iterator)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, iterator) => {
       return array.map(iterator)
     }

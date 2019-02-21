@@ -8,7 +8,7 @@ class FoundIndex extends AsyncObject {
     super(array, iterator)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, iterator) => {
       return array.findIndex(iterator)
     }
