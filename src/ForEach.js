@@ -8,7 +8,7 @@ class ForEach extends AsyncObject {
     super(array, iterator)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, iterator) => {
       array.forEach(iterator)
       return array

@@ -8,7 +8,7 @@ class IndexOf extends AsyncObject {
     super(array, item, start || 0)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, item, start) => {
       return array.indexOf(item, start)
     }

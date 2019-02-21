@@ -8,7 +8,7 @@ class Every extends AsyncObject {
     super(array, iterator)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (array, iterator) => {
       return array.every(iterator)
     }
