@@ -36,7 +36,7 @@ For more information about parameters in the async objects visit [docs](https://
 | ------------- | ----------------| ---------- | --------------------- |
 | `Every` | `array.every` | `array, iterator((value, index, array) => {})` | `boolean` |
 | `Filtered` | `array.every` | `array, iterator((value, index, array) => {})` | `array` |
-| `ForEach` | `array.forEach` | `array, iterator((value, index, array) => {})` | `array` |
+| `ForEach` | `array.slice().forEach` | `array, iterator((value, index, array) => {})` | `array` |
 | `FoundIndex` | `array.findIndex` | `array, iterator((value, index, array) => {})` | `number` |
 | `Found` | `array.find` | `array, iterator((value, index, array) => {})` | `value` |
 | `IndexOf` | `array.indexOf` | `array, item, start` | `number` |
