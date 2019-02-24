@@ -10,7 +10,7 @@ class ForEach extends AsyncObject {
 
   syncCall () {
     return (array, iterator) => {
-      array.forEach(iterator)
+      array.slice().forEach(iterator)
       return array
     }
   }
