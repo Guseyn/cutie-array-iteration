@@ -1,5 +1,4 @@
 # cutie-array-iteration
-Cutie extension for JavaScript array iteration methods.
 
 [![NPM Version](https://img.shields.io/npm/v/@cuties/array-iteration.svg)](https://npmjs.org/package/@cuties/array-iteration)
 [![Build Status](https://travis-ci.org/Guseyn/cutie-array-iteration.svg?branch=master)](https://travis-ci.org/Guseyn/cutie-array-iteration)
