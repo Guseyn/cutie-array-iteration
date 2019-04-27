@@ -46,4 +46,4 @@ For more information about parameters in the async objects visit [docs](https://
 | `ReducedRight` | `array.reduceRight` | `array, iterator((total, value, index, array) => {})` | `total` |
 | `Some` | `array.some` | `array, iterator((value, index, array) => {})` | `boolean` |x
 
-For more powerful async objects that you can use for processing collections you can use [cutie-async](https://github.com/Guseyn/cutie-async).
+For more powerful async objects for processing collections you can use [cutie-async](https://github.com/Guseyn/cutie-async).
