@@ -4,7 +4,7 @@
   "description": "Cutie extension for JavaScript array iteration methods.",
   "main": "index.js",
   "scripts": {
-    "test": "node test-executor",
+    "test": "node test",
     "build": "node build"
   },
   "repository": {
@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/Guseyn/cutie-array-iteration#readme",
   "dependencies": {
-    "@cuties/assert": "^1.2.0",
-    "@cuties/cutie": "^1.7.0",
-    "@cuties/is": "^1.1.0",
-    "@cuties/wall": "^1.1.0",
-    "test-executor": "^1.2.0"
+    "@cuties/assert": "^1.2.2",
+    "@cuties/cutie": "^1.7.5",
+    "@cuties/is": "^1.1.2",
+    "@cuties/wall": "^1.1.2",
+    "test-executor": "^1.2.4"
   },
   "devDependencies": {
     "eslint": "^5.14.0",
